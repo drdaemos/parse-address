@@ -571,6 +571,14 @@ var address = {
     city: 'Bloomfield Hills',
     state: 'MI',
     zip: '48304'
+  },
+  '2228 Harvest Moon Dr Unionville Ontario L3R 0L7': {
+    number: '2228',
+    street: 'Harvest Moon',
+    type: 'Dr',
+    city: 'Unionville',
+    state: 'ON',
+    zip: "L3R 0L7"
   }
 };
 

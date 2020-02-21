@@ -406,6 +406,7 @@
   };
 
   var State_Code = {
+    // us
     "alabama" : "AL",
     "alaska" : "AK",
     "american samoa" : "AS",
@@ -465,6 +466,19 @@
     "west virginia" : "WV",
     "wisconsin" : "WI",
     "wyoming" : "WY",
+    // canada
+    "alberta" : "AB",
+    "british columbia": "BC",
+    "manitoba" : "MB",
+    "new brunswick": "NB",
+    "newfoundland and labrador": "NL",
+    "newfoundland": "NL",
+    "nova scotia": "NS",
+    "ontario": "ON",
+    "prince edward island": "PE",
+    "prince edward": "PE",
+    "quebec" : "QC",
+    "saskatchewan": "SK"
   };
 
   var Direction_Code;
@@ -532,7 +546,7 @@
       state   : '\\b(?:' + keys(State_Code).concat(values(State_Code)).map(XRegExp.escape).join('|') + ')\\b',
       direct  : values(Directional).sort(function(a,b){return a.length < b.length}).reduce(function(prev,curr){return prev.concat([XRegExp.escape(curr.replace(/\w/g,'$&.')),curr])},keys(Directional)).join('|'),
       dircode : keys(Direction_Code).join("|"),
-      zip     : '(?<zip>\\d{5})[- ]?(?<plus4>\\d{4})?',
+      zip     : '(?<zip>(?:\\d{5}|[A-Za-z]\\d[A-Za-z][- ]?\\d[A-Za-z]\\d))[- ]?(?<plus4>\\d{4})?',
       corner  : '(?:\\band\\b|\\bat\\b|&|\\@)',
     };
 
