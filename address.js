@@ -481,6 +481,8 @@
     "saskatchewan": "SK"
   };
 
+  var CanadaStates = ["AB", "BC", "MB", "NB", "NL", "NS", "ON", "PE", "QC", "SK"];
+
   var Direction_Code;
   var initialized = false;
 
@@ -699,6 +701,14 @@
           return capitalize(Direction_Code[match.dircode.toUpperCase()]) +' ';
         });
     }
+    if (parsed.state) {
+      if (CanadaStates.includes(parsed.state)) {
+        parsed.country = "CA";
+      } else {
+        parsed.country = "US";
+      }
+    }
+
     return parsed;
   };
 

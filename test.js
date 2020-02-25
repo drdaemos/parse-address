@@ -34,7 +34,8 @@ var address = {
     street: 'Gravenstein',
     type: 'Hwy',
     city: 'Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 N Gravenstein Highway, Suite 500, Sebastopol, CA': {
     number: '1005',
@@ -44,7 +45,8 @@ var address = {
     sec_unit_type: 'Suite',
     sec_unit_num: '500',
     city: 'Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 N Gravenstein Hwy Suite 500 Sebastopol, CA': {
     number: '1005',
@@ -54,7 +56,8 @@ var address = {
     sec_unit_type: 'Suite',
     sec_unit_num: '500',
     city: 'Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 N Gravenstein Highway, Sebastopol, CA, 95472': {
     number: '1005',
@@ -63,7 +66,8 @@ var address = {
     type: 'Hwy',
     city: 'Sebastopol',
     state: 'CA',
-    zip: '95472'
+    zip: '95472',
+    country: 'US'
   },
   '1005 N Gravenstein Highway Sebastopol CA 95472': {
     number: '1005',
@@ -72,7 +76,8 @@ var address = {
     type: 'Hwy',
     city: 'Sebastopol',
     state: 'CA',
-    zip: '95472'
+    zip: '95472',
+    country: 'US'
   },
   '1005 Gravenstein Hwy N Sebastopol CA': {
     number: '1005',
@@ -80,7 +85,8 @@ var address = {
     type: 'Hwy',
     suffix: 'N',
     city: 'Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 Gravenstein Hwy N, Sebastopol CA': {
     number: '1005',
@@ -88,34 +94,39 @@ var address = {
     type: 'Hwy',
     suffix: 'N',
     city: 'Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 Gravenstein Hwy, N Sebastopol CA': {
     number: '1005',
     street: 'Gravenstein',
     type: 'Hwy',
     city: 'North Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 Gravenstein Hwy, North Sebastopol CA': {
     number: '1005',
     street: 'Gravenstein',
     type: 'Hwy',
     city: 'North Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1005 Gravenstein Hwy Sebastopol CA': {
     number: '1005',
     street: 'Gravenstein',
     type: 'Hwy',
     city: 'Sebastopol',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '115 Broadway San Francisco CA': {
     number: '115',
     street: 'Broadway',
     city: 'San Francisco',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '7800 Mill Station Rd, Sebastopol, CA 95472': {
     number: '7800',
@@ -123,7 +134,8 @@ var address = {
     type: 'Rd',
     city: 'Sebastopol',
     state: 'CA',
-    zip: '95472'
+    zip: '95472',
+    country: 'US'
   },
   '7800 Mill Station Rd Sebastopol CA 95472': {
     number: '7800',
@@ -131,28 +143,32 @@ var address = {
     type: 'Rd',
     city: 'Sebastopol',
     state: 'CA',
-    zip: '95472'
+    zip: '95472',
+    country: 'US'
   },
   '1005 State Highway 116 Sebastopol CA 95472': {
     number: '1005',
     street: 'State Highway 116',
     city: 'Sebastopol',
     state: 'CA',
-    zip: '95472'
+    zip: '95472',
+    country: 'US'
   },
   '1600 Pennsylvania Ave. Washington DC': {
     number: '1600',
     street: 'Pennsylvania',
     type: 'Ave',
     city: 'Washington',
-    state: 'DC'
+    state: 'DC',
+    country: 'US'
   },
   '1600 Pennsylvania Avenue Washington DC': {
     number: '1600',
     street: 'Pennsylvania',
     type: 'Ave',
     city: 'Washington',
-    state: 'DC'
+    state: 'DC',
+    country: 'US'
   },
   '48S 400E, Salt Lake City UT': {
     number: '48',
@@ -160,7 +176,8 @@ var address = {
     street: '400',
     suffix: 'E',
     city: 'Salt Lake City',
-    state: 'UT'
+    state: 'UT',
+    country: 'US'
   },
   '550 S 400 E #3206, Salt Lake City UT 84111': {
     number: '550',
@@ -171,7 +188,8 @@ var address = {
     sec_unit_num: '3206',
     city: 'Salt Lake City',
     state: 'UT',
-    zip: '84111'
+    zip: '84111',
+    country: 'US'
   },
   '6641 N 2200 W Apt D304 Park City, UT 84098': {
     number: '6641',
@@ -182,14 +200,16 @@ var address = {
     sec_unit_num: 'D304',
     city: 'Park City',
     state: 'UT',
-    zip: '84098'
+    zip: '84098',
+    country: 'US'
   },
   '100 South St, Philadelphia, PA': {
     number: '100',
     street: 'South',
     type: 'St',
     city: 'Philadelphia',
-    state: 'PA'
+    state: 'PA',
+    country: 'US'
   },
   '100 S.E. Washington Ave, Minneapolis, MN': {
     number: '100',
@@ -197,14 +217,16 @@ var address = {
     street: 'Washington',
     type: 'Ave',
     city: 'Minneapolis',
-    state: 'MN'
+    state: 'MN',
+    country: 'US'
   },
   '3813 1/2 Some Road, Los Angeles, CA': {
     number: '3813',
     street: 'Some',
     type: 'Rd',
     city: 'Los Angeles',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   'Mission & Valencia San Francisco CA': {
     street1: 'Mission',
@@ -212,7 +234,8 @@ var address = {
     city: 'San Francisco',
     state: 'CA',
     type2: '',
-    type1: ''
+    type1: '',
+    country: 'US'
   },
   'Mission & Valencia, San Francisco CA': {
     street1: 'Mission',
@@ -220,7 +243,8 @@ var address = {
     city: 'San Francisco',
     state: 'CA',
     type2: '',
-    type1: ''
+    type1: '',
+    country: 'US'
   },
   'Mission St and Valencia St San Francisco CA': {
     street1: 'Mission',
@@ -228,7 +252,8 @@ var address = {
     street2: 'Valencia',
     type2: 'St',
     city: 'San Francisco',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   'Mission St & Valencia St San Francisco CA': {
     street1: 'Mission',
@@ -236,7 +261,8 @@ var address = {
     street2: 'Valencia',
     type2: 'St',
     city: 'San Francisco',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   'Mission and Valencia Sts San Francisco CA': {
     street1: 'Mission',
@@ -244,7 +270,8 @@ var address = {
     type2: 'St',
     city: 'San Francisco',
     state: 'CA',
-    type1: 'St'
+    type1: 'St',
+    country: 'US'
   },
   'Mission & Valencia Sts. San Francisco CA': {
     street1: 'Mission',
@@ -252,7 +279,8 @@ var address = {
     type2: 'St',
     city: 'San Francisco',
     state: 'CA',
-    type1: 'St'
+    type1: 'St',
+    country: 'US'
   },
   'Mission & Valencia Streets San Francisco CA': {
     street1: 'Mission',
@@ -260,7 +288,8 @@ var address = {
     type2: 'St',
     city: 'San Francisco',
     state: 'CA',
-    type1: 'St'
+    type1: 'St',
+    country: 'US'
   },
   'Mission Avenue and Valencia Street San Francisco CA': {
     street1: 'Mission',
@@ -268,20 +297,23 @@ var address = {
     street2: 'Valencia',
     type2: 'St',
     city: 'San Francisco',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '1 First St, e San Jose CA': {
     number: '1',
     street: 'First',
     type: 'St',
     city: 'East San Jose',
-    state: 'CA'
+    state: 'CA',
+    country: 'US'
   },
   '123 Maple Rochester, New York': {
     number: '123',
     street: 'Maple',
     city: 'Rochester',
-    state: 'NY'
+    state: 'NY',
+    country: 'US'
   },
   '233 S Wacker Dr 60606-6306': {
     number: '233',
@@ -346,14 +378,16 @@ var address = {
     street: 'Some',
     type: 'Rd',
     city: 'Some City',
-    state: 'LA'
+    state: 'LA',
+    country: 'US'
   },
   '36401 County Road 43, Eaton, CO 80615': {
     number: '36401',
     street: 'County Road 43',
     city: 'Eaton',
     state: 'CO',
-    zip: '80615'
+    zip: '80615',
+    country: 'US'
   },
   '1234 COUNTY HWY 60E, Town, CO 12345': {
     number: '1234',
@@ -361,7 +395,8 @@ var address = {
     suffix: 'E',
     city: 'Town',
     state: 'CO',
-    zip: '12345'
+    zip: '12345',
+    country: 'US'
   },
   '321 S. Washington': {
     number: '321',
@@ -381,28 +416,32 @@ var address = {
     type: 'Row',
     city: 'Troy',
     state: 'MI',
-    zip: '48084'
+    zip: '48084',
+    country: 'US'
   },
   'Post office Box 3094 Collierville TN 38027': {
     sec_unit_type: 'Post office Box',
     sec_unit_num: '3094',
     city: 'Collierville',
     state: 'TN',
-    zip: '38027'
+    zip: '38027',
+    country: 'US'
   },
   'P.O. box 3094 Collierville TN 38027': {
     sec_unit_type: 'PO box',
     sec_unit_num: '3094',
     city: 'Collierville',
     state: 'TN',
-    zip: '38027'
+    zip: '38027',
+    country: 'US'
   },
   'POBox 3094 Collierville TN 38027': {
     sec_unit_type: 'POBox',
     sec_unit_num: '3094',
     city: 'Collierville',
     state: 'TN',
-    zip: '38027'
+    zip: '38027',
+    country: 'US'
   },
   'N95W18855 Jay Dr, Menomonee Falls, WI 53051': {
     number: 'N95W18855',
@@ -410,7 +449,8 @@ var address = {
     type: 'Dr',
     city: 'Menomonee Falls',
     state: 'WI',
-    zip: '53051'
+    zip: '53051',
+    country: 'US'
   },
   'N95W18855 Jay Dr Menomonee Falls WI 53051': {
     number: 'N95W18855',
@@ -418,7 +458,8 @@ var address = {
     type: 'Dr',
     city: 'Menomonee Falls',
     state: 'WI',
-    zip: '53051'
+    zip: '53051',
+    country: 'US'
   },
   'n95w18855 Jay Dr Menomonee Falls WI 53051': {
     number: 'n95w18855',
@@ -426,7 +467,8 @@ var address = {
     type: 'Dr',
     city: 'Menomonee Falls',
     state: 'WI',
-    zip: '53051'
+    zip: '53051',
+    country: 'US'
   },
   '10144 Potters Hatch Cmn Cupertino CA 95014': {
     number: '10144',
@@ -434,7 +476,8 @@ var address = {
     type: 'Cmn',
     city: 'Cupertino',
     state: 'CA',
-    zip: '95014'
+    zip: '95014',
+    country: 'US'
   },
   '10144 Potters Hatch Common Cupertino CA 95014': {
     number: '10144',
@@ -442,7 +485,8 @@ var address = {
     type: 'Cmn',
     city: 'Cupertino',
     state: 'CA',
-    zip: '95014'
+    zip: '95014',
+    country: 'US'
   },
   '36 Hathway Commons Lebanon OH 45036': {
     number: '36',
@@ -450,7 +494,8 @@ var address = {
     type: 'Cmns',
     city: 'Lebanon',
     state: 'OH',
-    zip: '45036'
+    zip: '45036',
+    country: 'US'
   },
   '36 Hathway Cmns Lebanon OH 45036': {
     number: '36',
@@ -458,7 +503,8 @@ var address = {
     type: 'Cmns',
     city: 'Lebanon',
     state: 'OH',
-    zip: '45036'
+    zip: '45036',
+    country: 'US'
   },
   '174 Sunset Crossroad Deer Isle ME 04627': {
     number: '174',
@@ -466,7 +512,8 @@ var address = {
     type: 'Xrd',
     city: 'Deer Isle',
     state: 'ME',
-    zip: '04627'
+    zip: '04627',
+    country: 'US'
   },
   '174 Sunset Xrd Deer Isle ME 04627': {
     number: '174',
@@ -474,7 +521,8 @@ var address = {
     type: 'Xrd',
     city: 'Deer Isle',
     state: 'ME',
-    zip: '04627'
+    zip: '04627',
+    country: 'US'
   },
   '905 Laing Crossroads Dawson GA 39842': {
     number: '905',
@@ -482,7 +530,8 @@ var address = {
     type: 'Xrds',
     city: 'Dawson',
     state: 'GA',
-    zip: '39842'
+    zip: '39842',
+    country: 'US'
   },
   '905 Laing Xrds Dawson GA 39842': {
     number: '905',
@@ -490,7 +539,8 @@ var address = {
     type: 'Xrds',
     city: 'Dawson',
     state: 'GA',
-    zip: '39842'
+    zip: '39842',
+    country: 'US'
   },
   '9402 Sequoia Fall San Antonio TX 78251': {
     number: '9402',
@@ -498,7 +548,8 @@ var address = {
     type: 'Fall',
     city: 'San Antonio',
     state: 'TX',
-    zip: '78251'
+    zip: '78251',
+    country: 'US'
   },
   '24411 Alamosa Fls San Antonio TX 78255': {
     number: '24411',
@@ -506,7 +557,8 @@ var address = {
     type: 'Fls',
     city: 'San Antonio',
     state: 'TX',
-    zip: '78255'
+    zip: '78255',
+    country: 'US'
   },
   '24411 Alamosa Falls San Antonio TX 78255': {
     number: '24411',
@@ -514,7 +566,8 @@ var address = {
     type: 'Fls',
     city: 'San Antonio',
     state: 'TX',
-    zip: '78255'
+    zip: '78255',
+    country: 'US'
   },
   '15235 Spring Land San Antonio TX 78247': {
     number: '15235',
@@ -522,7 +575,8 @@ var address = {
     type: 'Land',
     city: 'San Antonio',
     state: 'TX',
-    zip: '78247'
+    zip: '78247',
+    country: 'US'
   },
   '2146 University Square Mall Tampa FL 33612': {
     number: '2146',
@@ -530,7 +584,8 @@ var address = {
     type: 'Mall',
     city: 'Tampa',
     state: 'FL',
-    zip: '33612'
+    zip: '33612',
+    country: 'US'
   },
   '415 Van Wyck Mews Norfolk VA 23517': {
     number: '415',
@@ -538,7 +593,8 @@ var address = {
     type: 'Mews',
     city: 'Norfolk',
     state: 'VA',
-    zip: '23517'
+    zip: '23517',
+    country: 'US'
   },
   '22 Cumbres Pass Santa Fe New Mexico 87508': {
     number: '22',
@@ -546,7 +602,8 @@ var address = {
     type: 'Pass',
     city: 'Santa Fe',
     state: 'NM',
-    zip: '87508'
+    zip: '87508',
+    country: 'US'
   },
   '6 Maison Rue Hattiesburg MS 39402': {
     number: '6',
@@ -554,7 +611,8 @@ var address = {
     type: 'Rue',
     city: 'Hattiesburg',
     state: 'MS',
-    zip: '39402'
+    zip: '39402',
+    country: 'US'
   },
   '12921 Coyote Run Fishers IN 46038': {
     number: '12921',
@@ -562,7 +620,8 @@ var address = {
     type: 'Run',
     city: 'Fishers',
     state: 'IN',
-    zip: '46038'
+    zip: '46038',
+    country: 'US'
   },
   '2974 London Wall Bloomfield Hills MI 48304': {
     number: '2974',
@@ -570,7 +629,8 @@ var address = {
     type: 'Wall',
     city: 'Bloomfield Hills',
     state: 'MI',
-    zip: '48304'
+    zip: '48304',
+    country: 'US'
   },
   '2228 Harvest Moon Dr Unionville Ontario L3R 0L7': {
     number: '2228',
@@ -578,7 +638,8 @@ var address = {
     type: 'Dr',
     city: 'Unionville',
     state: 'ON',
-    zip: "L3R 0L7"
+    zip: "L3R 0L7",
+    country: 'CA'
   }
 };
 
