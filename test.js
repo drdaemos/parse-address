@@ -640,6 +640,16 @@ var address = {
     state: 'ON',
     zip: "L3R 0L7",
     country: 'CA'
+  },
+  '2401 W Spring Creek Pkwy Plano, TX 75023 United States': {
+    number: '2401',
+    prefix: 'W',
+    street: 'Spring Creek',
+    type: 'Pkwy',
+    city: 'Plano',
+    state: 'TX',
+    zip: '75023',
+    country: 'US'
   }
 };
 
